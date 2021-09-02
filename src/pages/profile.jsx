@@ -127,7 +127,7 @@ function Profile(){
                     </div>
                     
                 </div>
-                <hr style={{border:"0.3px solid lightgray",width:"72%"}}></hr>
+                <hr className="lineBreak" ></hr>
             <div style={{width:"72%",dislpay:"flex",flexDirection:"row",justifyContent:"center",alignItems:"center",margin:"9px"}}>
                 
                 <div style={{display:"flex",width:"20%",justifyContent:"center",alignItems:"center"}}>
@@ -140,7 +140,7 @@ function Profile(){
                    return(
                        
                        <div onClick={() => handleClickOpen(obj.id)} className="reel-container">
-                      <video className="reel" style={{height:"100%",width:"100%"}} src={obj.link}/>
+                      <video className="reel"  src={obj.link}/>
                            <Dialog maxWidth="md" onClose={handleClose} aria-labelledby="customized-dialog-title" open={openId === obj.id}>
                                                 <MuiDialogContent>
                                                 <div className="modall" style={{display:"flex",justifyContent:"center",width:"100%",height:"100%"}}>

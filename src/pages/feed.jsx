@@ -132,7 +132,7 @@ function UploadButtons(props) {
     }
     return (
         loadbar?<LinearWithValueLabel value={stats}></LinearWithValueLabel>:
-      <div style={{marginTop:'7vh'}} className={classes.root}>
+      <div className={classes.root}>
         <input
           accept="video/*"
           className={classes.input}
@@ -542,10 +542,9 @@ function Header(props){
                   display:"flex",
                   flexDirection:"row",
                   alignItems:"center",
-                  position:"fixed",
+                  position:"relative",
+                  top:'0',
                   left:'0',
-                  right:'0',
-                  
                   fontFamily:"cursive"
                 };
 
