@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/instaclone/static/css/main.8172343e.chunk.css",
-    "main.js": "/instaclone/static/js/main.94cdbe4a.chunk.js",
-    "main.js.map": "/instaclone/static/js/main.94cdbe4a.chunk.js.map",
-    "runtime-main.js": "/instaclone/static/js/runtime-main.d2b82a32.js",
-    "runtime-main.js.map": "/instaclone/static/js/runtime-main.d2b82a32.js.map",
-    "static/js/2.839ba55d.chunk.js": "/instaclone/static/js/2.839ba55d.chunk.js",
-    "static/js/2.839ba55d.chunk.js.map": "/instaclone/static/js/2.839ba55d.chunk.js.map",
-    "static/js/3.8c89b706.chunk.js": "/instaclone/static/js/3.8c89b706.chunk.js",
-    "static/js/3.8c89b706.chunk.js.map": "/instaclone/static/js/3.8c89b706.chunk.js.map",
+    "main.css": "/instaclone/static/css/main.4a0ed5a1.chunk.css",
+    "main.js": "/instaclone/static/js/main.996dc1df.chunk.js",
+    "main.js.map": "/instaclone/static/js/main.996dc1df.chunk.js.map",
+    "runtime-main.js": "/instaclone/static/js/runtime-main.3e1be422.js",
+    "runtime-main.js.map": "/instaclone/static/js/runtime-main.3e1be422.js.map",
+    "static/js/2.5fcf55cf.chunk.js": "/instaclone/static/js/2.5fcf55cf.chunk.js",
+    "static/js/2.5fcf55cf.chunk.js.map": "/instaclone/static/js/2.5fcf55cf.chunk.js.map",
+    "static/js/3.1e64a172.chunk.js": "/instaclone/static/js/3.1e64a172.chunk.js",
+    "static/js/3.1e64a172.chunk.js.map": "/instaclone/static/js/3.1e64a172.chunk.js.map",
     "index.html": "/instaclone/index.html",
-    "static/css/main.8172343e.chunk.css.map": "/instaclone/static/css/main.8172343e.chunk.css.map",
-    "static/js/2.839ba55d.chunk.js.LICENSE.txt": "/instaclone/static/js/2.839ba55d.chunk.js.LICENSE.txt",
+    "static/css/main.4a0ed5a1.chunk.css.map": "/instaclone/static/css/main.4a0ed5a1.chunk.css.map",
+    "static/js/2.5fcf55cf.chunk.js.LICENSE.txt": "/instaclone/static/js/2.5fcf55cf.chunk.js.LICENSE.txt",
     "static/media/Instagram.895005c3.JPG": "/instaclone/static/media/Instagram.895005c3.JPG",
     "static/media/img1.678f281f.jpg": "/instaclone/static/media/img1.678f281f.jpg",
     "static/media/img2.25af168d.jpg": "/instaclone/static/media/img2.25af168d.jpg",
@@ -23,9 +23,9 @@
     "static/media/logo.6ce24c58.svg": "/instaclone/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2b82a32.js",
-    "static/js/2.839ba55d.chunk.js",
-    "static/css/main.8172343e.chunk.css",
-    "static/js/main.94cdbe4a.chunk.js"
+    "static/js/runtime-main.3e1be422.js",
+    "static/js/2.5fcf55cf.chunk.js",
+    "static/css/main.4a0ed5a1.chunk.css",
+    "static/js/main.996dc1df.chunk.js"
   ]
 }
