@@ -82,17 +82,17 @@ function Profile(){
         </div>:
         <div >
             <Header user={user}/>
-        <div style={{backgroundColor:"#FAFAFA",display:"flex",flexDirection:"column",alignItems:"center"}}>
+        <div  className="abovehead" >
             
-            <div className="header" style={{display:"flex",backgroundColor:"#FAFAFA",width:"55%",height:"14rem",alignItems:"stretch"}}>
+            <div className="header" >
 
-                <div className="profile-pic">
-                    <img style={{height:"70%",borderRadius:"50%",marginTop:"15%"}}src={profile}></img>
+                <div className="profile-pic" style={{display:"flex",alignItems:"center"}}>
+                    <img className="displayedpic" src={profile}></img>
                 </div>
 
                 <div style={{height:"60%",width:"18rem",marginTop:"2rem",marginLeft:"19%",display:"flex",flexDirection:"column",justifyContent:"space-around"}}>
-                    <div style={{display:"flex",justifyContent:"space-around"}}>
-                            <div style={{fontSize:"24px",fontFamily:"Arial",fontWeight:"200"}}>
+                    <div className="hrde" >
+                            <div style={{fontFamily:"Arial",fontWeight:"200"}}>
                                 {user.fullName}
                             </div>
                             <div>
@@ -103,7 +103,7 @@ function Profile(){
                     </div>
 
                     
-                    <div style={{display:"flex",justifyContent:"space-between"}}>
+                    <div  className="hrde2" >
                         <div>
                             <span style={{fontWeight:"600"}}>{reelz.length}</span> posts
                         </div>
