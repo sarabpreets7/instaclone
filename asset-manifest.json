@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/instaclone/static/css/main.1b7f1ebf.chunk.css",
-    "main.js": "/instaclone/static/js/main.3e1947f0.chunk.js",
-    "main.js.map": "/instaclone/static/js/main.3e1947f0.chunk.js.map",
+    "main.css": "/instaclone/static/css/main.69f66229.chunk.css",
+    "main.js": "/instaclone/static/js/main.a9775033.chunk.js",
+    "main.js.map": "/instaclone/static/js/main.a9775033.chunk.js.map",
     "runtime-main.js": "/instaclone/static/js/runtime-main.3e1be422.js",
     "runtime-main.js.map": "/instaclone/static/js/runtime-main.3e1be422.js.map",
     "static/js/2.5fcf55cf.chunk.js": "/instaclone/static/js/2.5fcf55cf.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.1e64a172.chunk.js": "/instaclone/static/js/3.1e64a172.chunk.js",
     "static/js/3.1e64a172.chunk.js.map": "/instaclone/static/js/3.1e64a172.chunk.js.map",
     "index.html": "/instaclone/index.html",
-    "static/css/main.1b7f1ebf.chunk.css.map": "/instaclone/static/css/main.1b7f1ebf.chunk.css.map",
+    "static/css/main.69f66229.chunk.css.map": "/instaclone/static/css/main.69f66229.chunk.css.map",
     "static/js/2.5fcf55cf.chunk.js.LICENSE.txt": "/instaclone/static/js/2.5fcf55cf.chunk.js.LICENSE.txt",
     "static/media/Instagram.895005c3.JPG": "/instaclone/static/media/Instagram.895005c3.JPG",
     "static/media/img1.678f281f.jpg": "/instaclone/static/media/img1.678f281f.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.3e1be422.js",
     "static/js/2.5fcf55cf.chunk.js",
-    "static/css/main.1b7f1ebf.chunk.css",
-    "static/js/main.3e1947f0.chunk.js"
+    "static/css/main.69f66229.chunk.css",
+    "static/js/main.a9775033.chunk.js"
   ]
 }
