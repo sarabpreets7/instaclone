@@ -219,6 +219,7 @@ function UploadButtons(props) {
 function Reels(props){
     let [reels,setReels] = useState([]);
     let [liked,setLike] = useState(false)
+    let [loading,setLoading] = useState(false)
     let [totalLikes,handleLikes] = useState(0)
     let {currentUser} = useContext(AuthContext);
     let [comment,updateComment] = useState("")
@@ -252,8 +253,7 @@ function Reels(props){
                 "likes":[...newlikes]
             })
             
-            el.style.color="lightgray"
-            no--;
+            
 
         }
 
@@ -261,13 +261,12 @@ function Reels(props){
             database.reels.doc(tar).update({
                 "likes":[...likes,uid]
             })
-            el.style.color="red"
-            no++;
+            
             
         }
-        likel.innerText= no+" likes"
         
-
+        
+        setLoading(true)
         
     }
     const handleAutoScroll= async(e)=>
@@ -334,7 +333,7 @@ function Reels(props){
         "comments":[...comments,newcmmt]
     })
     }
-    
+    setLoading(true)
     
 
     
@@ -346,7 +345,7 @@ function Reels(props){
      console.log(followers)
      let otheruser = await database.users.doc(currentUser.uid).get()
      let following = (otheruser.data().following)
-     console.log(following)
+     
       let object = {"userid": currentUser.uid}
     //   followers.push(object)
       console.log(followers)
@@ -368,6 +367,7 @@ function Reels(props){
         for(let i=0;i<elements.length;i++){
             elements[i].innerText="follow"
         }
+       
       }
       else{
         database.users.doc(no).update({
@@ -381,8 +381,11 @@ function Reels(props){
         for(let i=0;i<elements.length;i++){
             elements[i].innerText="unfollow"
         }
+        
          
       }
+      setLoading(true)
+
 
      
     
@@ -413,7 +416,8 @@ function Reels(props){
             observer.observe(el)
         })
         
-    },[])
+        setLoading(false)
+    },[loading])
     
      
     return(
