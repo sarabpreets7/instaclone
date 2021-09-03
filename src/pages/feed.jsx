@@ -10,7 +10,7 @@ import TextField from '@material-ui/core/TextField';
 import PhotoCamera from '@material-ui/icons/PhotoCamera';
 import "./feed.css"
 import {Link} from "react-router-dom"
-import LinearWithValueLabel from './load';
+
 import ReactDOM from 'react-dom';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
@@ -26,6 +26,7 @@ import Typography from '@material-ui/core/Typography';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import IconButton from '@material-ui/core/IconButton';
 import Comments from './comments';
+import CircularIndeterminate from './load';
 
 function Feed(){
 
@@ -131,7 +132,7 @@ function UploadButtons(props) {
         }
     }
     return (
-        loadbar?<LinearWithValueLabel value={stats}></LinearWithValueLabel>:
+        loadbar?<CircularIndeterminate value={stats}></CircularIndeterminate>:
       <div className={classes.root}>
         <input
           accept="video/*"
@@ -427,9 +428,7 @@ function Reels(props){
 
                 {reels.map(function(object){
                     return(
-                        <div className="video-container" style={{
-                           
-                        }}>
+                        <div className="video-container" >
                             <div className="header" style={{alignItems:"center",display:"flex",margin:"0.6rem",fontFamily:"cursive"}}>
                                 <img style={{height:"30px",background:"transparent",objectFit:"contain",borderRadius:"50%",marginRight:"0.5rem"}} src={object.object.authorDPUrl} />
                                 <div style={{width:"50%"}}>
@@ -510,9 +509,9 @@ function Reels(props){
                                     </Dialog>
                                     </div>
                                     
-                                    <span id={object.id+"like"} className="likess" style=
-                                    {{marginRight:"1rem"}}>{object.object.likes.length} likes</span>
-                                    <span>{object.object.comments.length} comments</span>
+                                    <span  id={object.id+"like"} className="likess" style=
+                                    {{marginRight:"1rem",fontFamily:"cursive"}}>{object.object.likes.length} likes</span>
+                                    <span style={{fontFamily:"cursive"}}>{object.object.comments.length} comments</span>
                                 </div>
                                
                                 

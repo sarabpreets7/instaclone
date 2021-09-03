@@ -70,7 +70,7 @@ function Login(props){
                         
         >Logout</button></h1>:
     //     <div className='login-container'>
-    //                <div className='imgcar' style={{ backgroundImage: `url(` + Insta + `)`, backgroundSize: 'cover' }}>
+    //   <div className='imgcar' style={{ backgroundImage: `url(` + Insta + `)`, backgroundSize: 'cover' }}>
     //     <div className='caro'>
     //       <CarouselProvider
     //         visibleSlides={1}
@@ -105,11 +105,11 @@ function Login(props){
     //       </CarouselProvider>
     //     </div>
     //   </div>
-    //     </div>
+      
+    // </div>
     
         <div style={{height:"100vh",backgroundColor:"#FAFAFA"}}>
-            <div className="login-box" style={{height:"62vh",width:"22rem",backgroundColor:"white",display:"flex",flexDirection:"column",
-                    alignItems:"center",border:"0.5px solid lightgray",position:"fixed",right:"20rem",top:"5rem",}}>
+            <div className="login-box" >
                 <div style={{marginBottom:"1.7rem"}} >
                     <img src={instaLogo}/>
                 </div>

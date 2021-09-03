@@ -128,9 +128,9 @@ function Profile(){
                     
                 </div>
                 <hr className="lineBreak" ></hr>
-            <div style={{width:"72%",dislpay:"flex",flexDirection:"row",justifyContent:"center",alignItems:"center",margin:"9px"}}>
+            <div style={{width:"72%",dislpay:"flex",justifyContent:"center",alignItems:"center",margin:"9px"}}>
                 
-                <div style={{display:"flex",width:"20%",justifyContent:"center",alignItems:"center"}}>
+                <div style={{display:"flex",width:"20%",justifyContent:"center",alignItems:"center",marginLeft:"42%"}}>
                     <MovieFilterOutlinedIcon/><span style={{marginLeft:"7px",fontSize:"12px",letterSpacing:"1px",fontWeight:"500"}}><u>REELS</u></span>
                 </div>
                 
