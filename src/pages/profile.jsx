@@ -84,9 +84,9 @@ function Profile(){
             <Header user={user}/>
         <div  className="abovehead" >
             
-            <div className="header" >
+            <div className="headerrr" >
 
-                <div className="profile-pic" style={{display:"flex",alignItems:"center"}}>
+                <div className="profile-picc" style={{display:"flex",alignItems:"center"}}>
                     <img className="displayedpic" src={profile}></img>
                 </div>
 
