@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/instaclone/static/css/main.4a0ed5a1.chunk.css",
-    "main.js": "/instaclone/static/js/main.996dc1df.chunk.js",
-    "main.js.map": "/instaclone/static/js/main.996dc1df.chunk.js.map",
+    "main.js": "/instaclone/static/js/main.eb33e1d1.chunk.js",
+    "main.js.map": "/instaclone/static/js/main.eb33e1d1.chunk.js.map",
     "runtime-main.js": "/instaclone/static/js/runtime-main.3e1be422.js",
     "runtime-main.js.map": "/instaclone/static/js/runtime-main.3e1be422.js.map",
     "static/js/2.5fcf55cf.chunk.js": "/instaclone/static/js/2.5fcf55cf.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.3e1be422.js",
     "static/js/2.5fcf55cf.chunk.js",
     "static/css/main.4a0ed5a1.chunk.css",
-    "static/js/main.996dc1df.chunk.js"
+    "static/js/main.eb33e1d1.chunk.js"
   ]
 }
