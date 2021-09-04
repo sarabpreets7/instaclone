@@ -469,12 +469,12 @@ function Reels(props){
                                         <AddCommentIcon className="comment" color="primary" onClick={() => handleClickOpen(object.id)} style={{color:'lightgray',position:"absolute"}}></AddCommentIcon>
                                     <Dialog maxWidth="md" onClose={handleClose} aria-labelledby="customized-dialog-title" open={openId === object.id}>
                                                 <MuiDialogContent>
-                                                <div className="modal" style={{display:"flex",height:"80vh",width:"60vw"}}>
-                                                    <div className="video-containerr" style={{width:"50%",display:"flex",alignItems:"center",justifyContent:"center"}}>
+                                                <div className="modal" >
+                                                    <div className="video-containerr" >
                                                         <video controls={true} src={object.object.videoUrl} style={{width:"90%",height:"100%"}}></video>
                                                     </div>
 
-                                                    <div style={{width:"50%"}} className="comment-section">
+                                                    <div className="comment-section">
                                                         <div className="authordiv" style={{display:"flex",alignItems:"center",width:"100%",borderBottom:"1px solid lightgray"}}>
                                                              <img style={{height:"4rem",background:"transparent",objectFit:"contain",borderRadius:"50%",marginRight:"3.4rem",margin:"1.2rem"}} src={object.object.authorDPUrl} />
                                                             <div style={{width:"50%"}}>
